@@ -1,0 +1,7 @@
+#layout {
+    align-items: unset !important;
+}
+
+.info-icons:hover {
+    cursor: help;
+}

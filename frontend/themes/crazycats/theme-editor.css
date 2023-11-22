@@ -1,0 +1,103 @@
+:root {
+    --lumo-success-color-50pct: rgba(62, 229, 170, 0.5);
+    --lumo-success-color-10pct: rgba(62, 229, 170, 0.1);
+
+    --lumo-success-color: hsl(159, 76%, 57%);
+    --lumo-success-contrast-color: hsl(159, 29%, 10%);
+    --lumo-success-text-color: hsl(159, 61%, 40%);
+
+    --lumo-error-color-50pct: rgba(231, 24, 24, 0.5);
+    --lumo-error-color-10pct: rgba(231, 24, 24, 0.1);
+
+    --lumo-error-color: hsl(0, 81%, 50%);
+    --lumo-error-contrast-color: hsl(0, 100%, 28%);
+    --lumo-error-text-color: hsl(0, 86%, 45%);
+
+    --lumo-font-weight-bold: 500;
+    --lumo-font-weight-bold-s: 520;
+    --lumo-font-weight-bold-m: 620;
+    --lumo-font-weight-bold-l: 700;
+
+    --lumo-border-radius-l: 9px;
+    --lumo-border-radius-m: 6px;
+    --lumo-border-radius-s: 3px;
+}
+
+[theme~="dark"] {
+    --lumo-shade-5pct: rgba(33, 33, 33, 0.05);
+    --lumo-shade-10pct: rgba(33, 33, 33, 0.1);
+    --lumo-shade-20pct: rgba(33, 33, 33, 0.2);
+    --lumo-shade-30pct: rgba(33, 33, 33, 0.3);
+    --lumo-shade-40pct: rgba(33, 33, 33, 0.4);
+    --lumo-shade-50pct: rgba(33, 33, 33, 0.5);
+    --lumo-shade-60pct: rgba(33, 33, 33, 0.6);
+    --lumo-shade-70pct: rgba(33, 33, 33, 0.7);
+    --lumo-shade-80pct: rgba(33, 33, 33, 0.8);
+    --lumo-shade-90pct: rgba(33, 33, 33, 0.9);
+
+    --lumo-box-shadow: rgba(255, 255, 255, 0.2);
+
+    --lumo-primary-color: rgba(142, 152, 183, .2);
+    --lumo-primary-text-color: rgba(255, 255, 255, 1);
+
+    --lumo-border-color: rgba(142, 152, 183, .2);
+    --lumo-background-color: rgba(2, 49, 94, .8);
+    --lumo-background-color-lightblue: rgba(32, 115, 194, .2);
+
+    --lumo-button-border-color: rgba(255, 255, 255, 1);
+    --lumo-button-background-color: rgba(2, 49, 94, 1);
+    --lumo-button-text-color: rgba(255, 255, 255, 1);
+    --lumo-button-border-color-hover: rgba(2, 49, 94, 1);
+    --lumo-button-background-color-hover: rgba(2, 49, 94, .6);
+    --lumo-button-text-color-hover: rgba(255, 255, 255, 1);
+}
+
+[theme~="light"] {
+    --lumo-primary-color: rgba(2, 49, 94, 1);
+    --lumo-primary-color-10pct: rgba(2, 49, 94, .1);
+    --lumo-primary-color-20pct: rgba(2, 49, 94, .2);
+    --lumo-primary-color-30pct: rgba(2, 49, 94, .3);
+    --lumo-primary-color-40pct: rgba(2, 49, 94, .4);
+    --lumo-primary-color-50pct: rgba(2, 49, 94, .5);
+    --lumo-primary-color-60pct: rgba(2, 49, 94, .6);
+    --lumo-primary-color-70pct: rgba(2, 49, 94, .7);
+    --lumo-primary-color-80pct: rgba(2, 49, 94, .8);
+    --lumo-primary-color-90pct: rgba(2, 49, 94, .9);
+
+    --lumo-secondary-color: rgba(32, 115, 194, 1);
+    --lumo-secondary-color-10pct: rgba(32, 115, 194, .1);
+    --lumo-secondary-color-20pct: rgba(32, 115, 194, .2);
+    --lumo-secondary-color-30pct: rgba(32, 115, 194, .3);
+    --lumo-secondary-color-40pct: rgba(32, 115, 194, .4);
+    --lumo-secondary-color-50pct: rgba(32, 115, 194, .5);
+    --lumo-secondary-color-60pct: rgba(32, 115, 194, .6);
+    --lumo-secondary-color-70pct: rgba(32, 115, 194, .7);
+    --lumo-secondary-color-80pct: rgba(32, 115, 194, .8);
+    --lumo-secondary-color-90pct: rgba(32, 115, 194, .9);
+
+    --lumo-tertiary-color: rgba(142, 152, 183, 1);
+    --lumo-tertiary-color-10pct: rgba(142, 152, 183, .1);
+    --lumo-tertiary-color-20pct: rgba(142, 152, 183, .2);
+    --lumo-tertiary-color-30pct: rgba(142, 152, 183, .3);
+    --lumo-tertiary-color-40pct: rgba(142, 152, 183, .4);
+    --lumo-tertiary-color-50pct: rgba(142, 152, 183, .5);
+    --lumo-tertiary-color-60pct: rgba(142, 152, 183, .6);
+    --lumo-tertiary-color-70pct: rgba(142, 152, 183, .7);
+    --lumo-tertiary-color-80pct: rgba(142, 152, 183, .8);
+    --lumo-tertiary-color-90pct: rgba(142, 152, 183, .9);
+
+    --lumo-primary-text-color: rgba(2, 49, 94, 1);
+    --lumo-secondary-text-color: rgba(32, 115, 194, 1);
+    --lumo-tertiary-text-color: rgba(142, 152, 183, 1);
+
+    --lumo-border-color: rgba(2, 49, 94, 1);
+    --lumo-background-color-lightgray: rgba(142, 152, 183, .2);
+    --lumo-background-color-lightblue: rgba(32, 115, 194, .2);
+
+    --lumo-button-border-color: rgba(2, 49, 94, 1);
+    --lumo-button-background-color: rgba(255, 255, 255, 1);
+    --lumo-button-text-color: rgba(2, 49, 94, 1);
+    --lumo-button-border-color-hover: rgba(2, 49, 94, 1);
+    --lumo-button-background-color-hover: rgba(2, 49, 94, .6);
+    --lumo-button-text-color-hover: rgba(255, 255, 255, 1);
+}
