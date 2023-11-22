@@ -1,0 +1,31 @@
+server:
+  port: 8080
+logging:
+  level:
+    root: WARN
+    org.springframework: WARN
+    org.hibernate: WARN
+    com.vaadin: WARN
+vaadin:
+  launch-browser: true
+spring:
+  application:
+    name: crazycats
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        default_schema: public
+    show-sql: true
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/crazycats
+    username: "crazycats"
+    password: "791300"
+    hikari:
+      maximum-pool-size: 2
